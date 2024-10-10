@@ -218,6 +218,7 @@ class Window extends dn.Process {
 	}
 
 	public function addTitle(str:String) {
+		addSpacer();
 		new ui.component.Text( str.toUpperCase(), Col.coldGray(0.5), content );
 		addSpacer();
 	}

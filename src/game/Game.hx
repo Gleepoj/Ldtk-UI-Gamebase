@@ -42,6 +42,7 @@ class Game extends AppChildProcess {
 		camera = new Camera();
 
 		startLevel(Assets.worldData.all_worlds.SampleWorld.all_levels.FirstLevel);
+
 	}
 
 

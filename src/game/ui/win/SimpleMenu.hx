@@ -5,7 +5,7 @@ class SimpleMenu extends ui.Window {
 
 	public function new() {
 		super(true);
-
+		trace("open simple menu");
 		content.padding = 1;
 		content.horizontalSpacing = 4;
 		content.verticalSpacing = 0;
@@ -52,4 +52,6 @@ class SimpleMenu extends ui.Window {
 
 		uiCtrl.registerComponent(bt);
 	}
+
+	
 }
